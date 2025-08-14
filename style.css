@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 60vh;
+    width: 60vh;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 36px 100px;
+}
+
+.child-div {
+    aspect-ratio: 1/1;
+    transition: all 0.3s ease-in;
+}
+
+.child-div.active {
+    background-color: burlywood;
+    transform: scale(1.1);
+}
