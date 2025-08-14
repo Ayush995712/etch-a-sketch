@@ -16,5 +16,5 @@ const divs = document.querySelectorAll('.child-div');
 divs.forEach(div => {
     div.addEventListener("mouseenter", () => {
     div.classList.add("active");
-})
+    })
 })
